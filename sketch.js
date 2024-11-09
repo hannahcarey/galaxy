@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(1280, 593);
+  createCanvas(windowWidth, windowHeight);
 
   const myColors = {
     pink: [230, 67, 126, 0],
@@ -17,7 +17,6 @@ function setup() {
 
   background(30, 30, 30);
 
-  
   for (let i = 0; i < 100000; i++) {
     setTimeout(() => {
       walkers.forEach(e => e.step().changeColor().show());
@@ -25,6 +24,7 @@ function setup() {
     }, 5);
   }
 }
+
 
 function printStar() {
     const x = floor(random(width));
