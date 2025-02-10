@@ -2,8 +2,6 @@ I am reading Daniel Shiffman's Nature of Code, https://natureofcode.com/random/
 In chapter 0, I learned about the walker class and was inspired to experiment with it, introducing differing colors and blend modes.
 this program runs 8 walkers that will cover your screen with beautiful colors, while displaying some stars as well, representing a galaxy.
 
-To run from VS code, please install the p5.vscode extension, right-click on index.html, and choose Open with Live Server. you might need to manually access http://localhost:5500/ in your browser
-
 In the future I would like to add user input functionality, allowing for the user to choose colors/number of walkers/ etc.
 I also want to have a similar dark texture in the background, but I found generating that texture with a walker to be inappropriate.
 
